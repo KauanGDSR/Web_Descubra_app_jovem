@@ -1,47 +1,58 @@
-# 📱 Descubra App (Youth Application)
-> O aplicativo móvel oficial do programa Descubra, focado na experiência do jovem, oferecendo acesso transparente a vagas de aprendizagem, cursos profissionalizantes e gamificação do seu engajamento.
+# Descubra Jovem (Aplicativo Mobile)
 
-## 📌 Status do Projeto
-✅ **Concluído / Em Desenvolvimento**
+Este é o aplicativo mobile do **Programa Descubra**, voltado para os jovens participantes do programa. O objetivo do app é facilitar a comunicação com os assistentes sociais, permitir que o jovem mantenha seu cadastro socioeconômico atualizado e visualize vagas de emprego e cursos recomendados especificamente para o seu perfil.
 
-## 💡 Sobre o Projeto
-O **Descubra App** foi desenhado como a porta de entrada para os jovens atendidos pelo programa social. Através de um design moderno e acessível, o aplicativo incentiva o engajamento contínuo do estudante ao exibir recomendações de vagas feitas por Inteligência Artificial e cursos voltados ao seu perfil, além de um sistema gamificado que o recompensa por bons desempenhos escolares e comportamentais.
+O aplicativo se conecta ao mesmo banco de dados da plataforma administrativa, permitindo um acompanhamento em tempo real pelas equipes técnicas.
 
-## ✨ Funcionalidades Principais
-- **Vitrine de Vagas:** Visualização de vagas de Jovem Aprendiz abertas pelas empresas parceiras.
-- **Catálogo de Cursos:** Acesso a trilhas de qualificação profissional.
-- **Currículo Digital (Perfil):** Visualização e acompanhamento dos dados pessoais, escolaridade e competências do jovem.
-- **Gamificação e Recompensas:** Acompanhamento do saldo de *Descubra Points* adquiridos por assiduidade e disciplina.
-- **Design de Alta Conversão:** UI/UX moderna construída com navegação fluida, dark mode nativo e suporte a diferentes dimensões de tela (iOS/Android).
+## 🚀 Principais Funcionalidades
+
+* **Cadastro Socioeconômico:** Formulário interativo para o jovem preencher e atualizar suas informações de escolaridade, dados familiares, moradia e renda.
+* **Vagas e Cursos Recomendados:** Visualização direta das oportunidades de trabalho e cursos de capacitação recomendados para o perfil do jovem após o matching realizado no painel técnico.
+* **Acompanhamento de Processos:** Tela para o jovem verificar o status das suas candidaturas e encaminhamentos.
+* **Canal de Comunicação:** Canal direto para dúvidas ou solicitações com a equipe técnica do Programa Descubra.
 
 ## 🛠️ Tecnologias Utilizadas
-- **Framework Mobile:** [React Native](https://reactnative.dev/)
-- **Build System & Roteamento:** [Expo](https://expo.dev/) (Expo Router v3)
-- **Componentes Visuais:** Lucide React Native (Ícones) & React Native Reanimated (Animações 60fps)
-- **Backend as a Service:** [Supabase](https://supabase.com/) (Autenticação e API de Dados)
-- **Gerenciamento de Estado:** React Hooks e Context API
-- **Linguagem:** TypeScript (Tipagem Estrita)
 
-## ⚙️ Como Executar o Projeto
-1. **Clone o repositório:**
+* **Framework Mobile:** React Native / Expo (com Expo Router para navegação baseada em arquivos)
+* **Linguagem:** TypeScript
+* **Banco de Dados & Auth:** Supabase Client SDK
+* **Estilização:** NativeWind / Tailwind CSS ou estilos nativos
+
+## 📦 Como Executar o Projeto
+
+### Pré-requisitos
+* Node.js (v18 ou superior)
+* Expo Go instalado no celular (Android ou iOS) para testes rápidos ou emulador configurado.
+
+### Configuração
+1. Clone o repositório:
    ```bash
    git clone https://github.com/KauanGDSR/Web_Descubra_app_jovem.git
+   cd Web_Descubra_app_jovem
+   ```
 
-2.Acesse a pasta do projeto:
-cd Web_Descubra_app_jovem
+2. Instale as dependências:
+   ```bash
+   npm install
+   ```
 
-3.Instale as dependências:
-npm install
+3. Configure as variáveis de ambiente. Você pode criar um arquivo `.env` ou configurar no `app.json` / `expo-env.d.ts` dependendo do seu setup de variáveis de ambiente do Expo (por exemplo, usando `EXPO_PUBLIC_`):
+   ```env
+   EXPO_PUBLIC_SUPABASE_URL=sua_url_do_supabase
+   EXPO_PUBLIC_SUPABASE_ANON_KEY=sua_chave_anonima_do_supabase
+   ```
 
-4.Configure a conexão com o Banco (Supabase): A comunicação via banco deve estar sincronizada com as credenciais do backend oficial. Acesse meu outro projeto Web_Descubra.
+4. Inicie o Expo:
+   ```bash
+   npx expo start
+   ```
 
-5.Inicie o servidor do Expo:
-npm start
+5. Leia o QR Code exibido no terminal/navegador usando o aplicativo Expo Go no seu celular, ou pressione `a` para abrir no emulador Android ou `i` para o simulador iOS.
 
-6.Teste no seu dispositivo ou emulador:
-Leia o QR Code exibido no terminal utilizando o aplicativo Expo Go no seu celular (iOS ou Android) ou pressione a para rodar num emulador Android local.
+---
 
-⚠️ Licença e Direitos Autorais
-Aviso Legal: Este repositório foi publicado publicamente de forma estrita para fins de portfólio e demonstração de habilidades técnicas.
+## 🔒 Direitos Autorais e Licença
 
-TODOS OS DIREITOS SÃO RESERVADOS. É expressamente proibida a cópia, modificação, distribuição, publicação nas lojas de aplicativos (App Store/Google Play) ou uso (seja para fins comerciais, acadêmicos ou pessoais) do código-fonte, design e interfaces aqui contidos sem a prévia e formal autorização do autor.
+Este projeto foi desenvolvido como parte de um portfólio pessoal/projeto de hackathon. O código-fonte está disponível publicamente apenas para fins de demonstração técnica e avaliação de habilidades.
+
+**Não é permitida a redistribuição, cópia integral ou uso comercial deste código sem autorização prévia.**

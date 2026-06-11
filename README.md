@@ -4,6 +4,22 @@ Este é o aplicativo mobile do **Programa Descubra**, voltado para os jovens par
 
 O aplicativo se conecta ao mesmo banco de dados da plataforma administrativa, permitindo um acompanhamento em tempo real pelas equipes técnicas.
 
+## 👥 Realização, Parcerias e Equipe
+
+Este projeto foi idealizado e construído como solução para o desafio do **Programa Descubra**, contando com o apoio e colaboração das seguintes instituições:
+
+* **Ministério Público do Estado de Minas Gerais (MPMG)**
+* **SEBRAE**
+* **Instituto Federal do Norte de Minas Gerais (IFNMG) - Campus Pirapora**
+* **Programa Descubra** (Programa de Incentivo à Aprendizagem de Minas Gerais)
+
+### 🚀 Equipe de Desenvolvimento
+* **Kauan Gabriel** - [Seu Cargo/Papel no grupo, ex: Desenvolvedor Full Stack]
+* [Nome do Integrante 2] - [Papel no grupo]
+* [Nome do Integrante 3] - [Papel no grupo]
+
+---
+
 ## 🚀 Principais Funcionalidades
 
 * **Cadastro Socioeconômico:** Formulário interativo para o jovem preencher e atualizar suas informações de escolaridade, dados familiares, moradia e renda.
@@ -53,6 +69,6 @@ O aplicativo se conecta ao mesmo banco de dados da plataforma administrativa, pe
 
 ## 🔒 Direitos Autorais e Licença
 
-Este projeto foi desenvolvido como parte de um portfólio pessoal/projeto de hackathon. O código-fonte está disponível publicamente apenas para fins de demonstração técnica e avaliação de habilidades.
+Este projeto foi desenvolvido como parte de um portfólio pessoal e trabalho em equipe acadêmico/hackathon. O código-fonte está disponível publicamente apenas para fins de demonstração técnica e avaliação de habilidades.
 
 **Não é permitida a redistribuição, cópia integral ou uso comercial deste código sem autorização prévia.**

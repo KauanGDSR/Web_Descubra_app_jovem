@@ -14,9 +14,11 @@ Este projeto foi idealizado e construído como solução para o desafio do **Pro
 * **Programa Descubra** (Programa de Incentivo à Aprendizagem de Minas Gerais)
 
 ### 🚀 Equipe de Desenvolvimento
-* **Kauan Gabriel** - [Seu Cargo/Papel no grupo, ex: Desenvolvedor Full Stack]
-* [Nome do Integrante 2] - [Papel no grupo]
-* [Nome do Integrante 3] - [Papel no grupo]
+* **Gildo Alves** - Gerente de Sistemas
+* **Kauan Gabriel** - Desenvolvedor Full Stack
+* **Luiz Eduardo** - Desenvolvedor Back-end
+* **Lorena** - Gestora de Projetos
+* **Mateus** - Diretor de Comunicações
 
 ---
 

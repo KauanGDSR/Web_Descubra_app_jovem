@@ -14,8 +14,8 @@ Este projeto foi idealizado e construído como solução para o desafio do **Pro
 * **Programa Descubra** (Programa de Incentivo à Aprendizagem de Minas Gerais)
 
 ### 🚀 Equipe de Desenvolvimento
-* **Gildo Alves** - Gerente de Sistemas
-* **Kauan Gabriel** - Desenvolvedor Full Stack
+* [Gildo Alves](https://github.com/gabj1-gildo) - Gerente de Sistemas
+* [Kauan Gabriel](https://github.com/KauanGDSR) - Desenvolvedor Full Stack
 * **Luiz Eduardo** - Desenvolvedor Back-end
 * **Lorena** - Gestora de Projetos
 * **Mateus** - Diretor de Comunicações
